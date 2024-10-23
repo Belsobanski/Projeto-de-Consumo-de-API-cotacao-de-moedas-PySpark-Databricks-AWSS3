@@ -9,6 +9,13 @@ Usamos o awesome api: https://docs.awesomeapi.com.br/
 
 API do Twilio comentada: https://www.twilio.com/docs/libraries/python
 
+
+
+# Esse link pode mudar se os donos da API mudarem
+
+
+# Código
+
 import requests
 import json
 
@@ -18,6 +25,7 @@ cotacoes = requests.get("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL
 cotacoes_dic = cotacoes.json()
 cotacao_dolar = cotacoes_dic['USDBRL']['bid']
 print(cotacao_dolar)
+
 
 ## Tecnologias Utilizadas
 
