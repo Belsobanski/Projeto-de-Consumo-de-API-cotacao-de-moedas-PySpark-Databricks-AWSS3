@@ -106,8 +106,8 @@ import json
 import boto3
 
 # Configurações de acesso ao S3
-ACCESS_KEY = 'AKIAQEFWAOM2QH5HHT622'
-SECRET_KEY = '7ZNjkv05yZai+FnG1FAn1gdsfJkFUTjyeAZuf98A22'
+ACCESS_KEY = 
+SECRET_KEY =
 BUCKET_NAME = 'awesomeapicotacao'
 FOLDER_NAME = 'raw/'
 FILE_NAME = 'cotacoes.json'
