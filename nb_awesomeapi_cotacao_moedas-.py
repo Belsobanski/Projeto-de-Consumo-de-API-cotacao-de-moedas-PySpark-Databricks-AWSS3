@@ -144,8 +144,8 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("Cotacoes").getOrCreate()
 
 # Configurar as credenciais do S3 diretamente no código (não recomendado para produção)
-spark.conf.set("fs.s3a.access.key", "AKIAQEFWAOM2QH5HHT622")
-spark.conf.set("fs.s3a.secret.key", "7ZNjkv05yZai+FnG1FAn1gdsfJkFUTjyeAZuf98A22")
+spark.conf.set("fs.s3a.access.key", "")
+spark.conf.set("fs.s3a.secret.key", "")
 spark.conf.set("fs.s3a.endpoint", "s3.amazonaws.com")
 
 # Obter dados da API de cotações
